@@ -3,10 +3,6 @@ package org.example;
 
 import org.fusesource.mqtt.client.*;
 
-import java.io.IOException;
-
-import java.net.URISyntaxException;
-import java.util.concurrent.TimeoutException;
 
 public class Main {
     public static void main(String[] args) throws Exception {
