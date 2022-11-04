@@ -8,4 +8,4 @@ RUN  apt-get update && \
 
 RUN echo "messagingProtocols=mqtt" >> /pulsar/conf/standalone.conf  && \
     echo "protocolHandlerDirectory=./protocols" >> /pulsar/conf/standalone.conf && \
-    echo "amqpListeners=amqp://127.0.0.1:1883" >> /pulsar/conf/standalone.conf
+    echo "mqttListeners=mqtt://127.0.0.1:1883" >> /pulsar/conf/standalone.conf
